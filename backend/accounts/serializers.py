@@ -155,7 +155,7 @@ class Disable2FASerializer(serializers.Serializer):
 
 
 class TokenResponseSerializer(serializers.Serializer):
-    """Helper serialiser for documenting JWT token responses (not used for input)."""
+    """Helper serializer for documenting JWT token responses (not used for input)."""
     access = serializers.CharField()
     refresh = serializers.CharField()
     user = UserProfileSerializer()
